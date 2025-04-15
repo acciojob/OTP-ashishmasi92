@@ -33,8 +33,5 @@ codes.forEach((val, index) => {
 
 })
 
-window.addEventListener('load', () => {
-    inputs[0].focus();
-  });
 
 
