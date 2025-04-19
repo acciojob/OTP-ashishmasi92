@@ -27,11 +27,11 @@ codes.forEach((val, index) => {
         }
 
     })
-
+    
+  
+    window.addEventListener("DOMContentLoaded", () => {
+        codes[0].focus();
+      });
 })
-
-window.addEventListener("DOMContentLoaded", () => {
-    codes[0].focus();
-  });
 
 
