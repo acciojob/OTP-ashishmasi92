@@ -17,24 +17,21 @@ codes.forEach((val, index) => {
         let keypress = e.key
         let value2 = e.target.value
         if (keypress == "Backspace") {
+            if(value2=="" &&index>0){
 
-
-            if(value2==""){
-                
                 codes[index-1].focus()
-                codes[index-1].value=""
             }
-            else{
-                e.target.value=""
-            }
+
+
+           
         }
 
     })
 
 })
 
-window.addEventListener('load', () => {
-    inputs[0].focus();
+window.addEventListener("DOMContentLoaded", () => {
+    codes[0].focus();
   });
 
 
